@@ -1,0 +1,23 @@
+.blockquote_astronomia {
+    border-left-color: blue;
+}
+
+.blockquote_geofisica {
+    border-left-color: brown;
+}
+
+.blockquote_atmosfericas {
+    border-left-color: blue;
+}
+
+.card-content-fixed-size {
+    height: 610px;
+}
+
+.carousel-content {
+    min-height: 600px;
+}
+
+.carousel-card-action {
+    max-height: 30px;
+}
