@@ -1,16 +1,28 @@
 $(document).ready(function(){
     $('.carousel').carousel({
-        dist: 0,
-        padding: 0,
+        dist: 10,
+        padding: 10,
         fullWidth:true,
-        indicators: true,
-        duration: 100
+        indicators: false,
+        duration: 200
     });
 
-    autoplay();
+    $('#right').click(function(){
+      right();
+    });
+
+    $('#left').click(function(){
+      left();
+    });
+
+    right();
+
 });
 
-function autoplay() {
-    $('.carousel').carousel('next');
-    setTimeout(autoplay, 4500);
+function right () {
+  $('.carousel').carousel('next');
+}
+
+function left () {
+  $('.carousel').carousel('prev');
 }

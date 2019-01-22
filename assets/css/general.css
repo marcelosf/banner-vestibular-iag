@@ -7,17 +7,30 @@
 }
 
 .blockquote_atmosfericas {
-    border-left-color: blue;
+    border-left-color: #003377;
 }
 
 .card-content-fixed-size {
-    height: 610px;
+    height: 600px;
 }
 
 .carousel-content {
-    min-height: 600px;
+    min-height: 1000px;
 }
 
-.carousel-card-action {
-    max-height: 30px;
+.middle-indicator{
+    position:absolute;
+    top:10%;
+}
+
+.middle-indicator-text{
+  font-size: 4.2rem;
+}
+
+a.middle-indicator-text{
+   color:white !important;
+}
+
+.carousel-fixed-item {
+    height: 70px;
 }
